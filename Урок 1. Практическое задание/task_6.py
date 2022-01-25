@@ -18,7 +18,7 @@ class QueueClass:
         self.revision = []
 
 
-    def is_empty(self):
+    def base_is_empty(self):
         return self.base == []
 
     def to_queue(self, item):
